@@ -5,9 +5,18 @@
   "editor.formatOnSave": true,
   "editor.accessibilitySupport": "on",
   "editor.wordWrap": "on",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "css.validate": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "security.workspace.trust.untrustedFiles": "open",
@@ -16,5 +25,9 @@
   "prettier.jsxSingleQuote": true,
   "prettier.printWidth": 55,
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "bracket-pair-colorizer-2.depreciation-notice": false
 }

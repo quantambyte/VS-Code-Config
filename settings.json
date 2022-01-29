@@ -1,33 +1,30 @@
 {
-  "diffEditor.wordWrap": "on",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "GitHub Dark",
+  "diffEditor.wordWrap": "off",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.accessibilitySupport": "on",
-  "editor.wordWrap": "on",
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
+  "editor.wordWrap": "off",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "editor.quickSuggestions": {
-    "strings": true
-  },
-  "tailwindCSS.includeLanguages": {
-    "plaintext": "html"
-  },
-  "css.validate": false,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "security.workspace.trust.untrustedFiles": "open",
   "workbench.startupEditor": "none",
   "prettier.singleQuote": true,
   "prettier.jsxSingleQuote": true,
-  "prettier.printWidth": 55,
+  "prettier.printWidth": 65,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "liveServer.settings.donotShowInfoMsg": true,
-  "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.colorTheme": "GitHub Dark Dimmed",
-  "bracket-pair-colorizer-2.depreciation-notice": false
+  "git.ignoreMissingGitWarning": true,
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": false,
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "editor.inlayHints.enabled": false
 }
